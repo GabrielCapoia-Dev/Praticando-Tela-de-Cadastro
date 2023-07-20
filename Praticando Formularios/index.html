@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="conteiner"> 
+        <div class="grid-nome-email">
+
+            <div class="coluna-dados">
+                Seu nome:
+                <input type="text" placeholder="Insira seu nome aqui" name="nome" id="nome">
+            </div>
+            <div class="coluna-dados">
+                Seu e-mail:
+                <input type="email" placeholder="exemplo@exemplo.com" name="email" id="email">
+            </div>
+
+        </div>
+
+        <div class="descricao">
+            Descricao:
+            <input type="text"  name="texto-descricao" id="texto-descricao">
+        </div>
+
+        <div class="grid-informacoes">
+            <div class="coluna-informacoes">
+                <label for="">Data de nascimanto:</label>
+                <input class="calendario" type="date" name="calendario" id="calendario">
+            </div>
+
+            <div class="coluna-informacoes">
+                <label for="">Sua cor favorita:</label>
+                <input class="cores" type="color" name="cores" id="cores">
+            </div>
+
+            <div class="coluna-informacoes">
+                <label for="">Defina um Avatar:</label>
+                <input type="button" id="upload" value="Enviar um arquivo">
+            </div>
+
+            <div class="coluna-informacoes">
+                <label for="">Senha:</label>
+                <input class="senha" type="password" name="senha" id="senha">
+            </div>
+
+        </div>
+
+        <input type="button" id="enviar-formulario" value="Enviar">
+
+    </div>
+</body>
+</html>
